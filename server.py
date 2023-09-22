@@ -16,7 +16,7 @@ app = Flask(__name__,
             static_url_path='',
             static_folder='')
 
-YOUR_DOMAIN = 'http://localhost:4242'
+YOUR_DOMAIN = 'https://andrewgithb.github.io/shopping-demo/'
 
 @app.route('/hoodie-buy', methods=['POST'])
 #@app.route('/create-checkout-session', methods=['POST'])
