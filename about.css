@@ -1,0 +1,73 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: rgb(174, 210, 255);
+}
+
+.main {
+    flex: 1;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #27005D;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 50px; /* Adjust as needed for spacing between items */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Style for the navbar links on hover */
+.navbar li a:hover {
+    color: #a67add; /* Change the color on hover */
+}
+
+.text-overlay {
+position: absolute; /* Position the text absolutely within the container */
+top: 12%; /* Align the text vertically at the center */
+left: 45%; /* Align the text horizontally at the center */
+transform: translate(-50%, -50%); /* Adjust to center the text properly */
+/* background-color: rgba(0, 0, 0, 0.5); Background color with opacity for readability */
+padding: 40px; /* Add padding to the text for better visibility */
+color: #fff; /* Text color */
+}
+
+.animated-text {
+font-family: Croissant One, sans-serif;
+font-size: 3rem;
+color: #fff;
+white-space: nowrap;
+overflow: hidden;
+border-right: 2px solid #fff; /* Typing cursor effect */
+animation: typing 3s steps(22) infinite;
+}
+
+@keyframes typing {
+0% {
+  width: 0;
+}
+100% {
+  width: 100%;
+}
+}
+
+footer {
+text-align: right;
+color: midnightblue;
+}

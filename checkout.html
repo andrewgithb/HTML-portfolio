@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buy cool new product</title>
+    <link rel="stylesheet" href="stripe.css">
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+  <body>
+    <section>
+      <div class="product">
+        <img src="assets/images/hoodie.png" alt="The cover of Stubborn Attachments" />
+        <div class="description">
+          <h3>Drew Hoodie</h3>
+          <h5>$50.00</h5>
+        </div>
+      </div>
+      <form action="/hoodie-buy" method="POST">
+        <button type="submit" id="checkout-button">Checkout</button>
+      </form>
+
+      <div class="product">
+        <img src="assets/images/Tee.png" alt="The cover of Stubborn Attachments" />
+        <div class="description">
+          <h3>Drew Essential Tee</form></h3>
+          <h5>$40.00</h5>
+        </div>
+      </div>
+      <form action="/tee-buy" method="POST">
+        <button type="submit" id="checkout-button">Checkout</button>
+      </form>
+
+      <div class="product">
+        <img src="assets/images/shorts.png" alt="The cover of Stubborn Attachments" />
+        <div class="description">
+          <h3>Drew Shorts</h3>
+          <h5>$35.00</h5>
+        </div>
+      </div>
+      <form action="/short-buy" method="POST">
+        <button type="submit" id="checkout-button">Checkout</button>
+      </form>
+    </section>
+  </body>
+</html>
