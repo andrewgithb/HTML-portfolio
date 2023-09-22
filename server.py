@@ -111,4 +111,5 @@ def short_checkout_session():
 #     return redirect(checkout_session.url, code=303)
 
 if __name__ == '__main__':
-    app.run(port=4242)
+    #app.run(port=4242)
+    app.run(host="andrewgithb.github.io")
